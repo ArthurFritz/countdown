@@ -1,0 +1,42 @@
+body {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: rgb(45 42 38);
+    color: #ffc847;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box .counter {
+    width: 100px;
+    height: 100px;
+}
+
+.hide {
+    display: none;
+}
+
+.exampleLink{
+    font-size: 12px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+.blink {
+animation: blink 1s step-start 0s infinite;
+}
+
+h1 {
+    font-size: calc(4rem + 4vw);
+}
